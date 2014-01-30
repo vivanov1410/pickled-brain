@@ -39,6 +39,12 @@ class AddTest(unittest.TestCase):
     def test_add_negative_and_positive(self):
         self.assertEquals(add(-7, 21), 14)
 
+    def test_first_argument_not_number(self):
+        self.assertEquals(add('asd', 2), 'error')
+
+    def test_second_argument_not_number(self):
+        self.assertEquals(add(3, 'asd'), 'error')
+
 
 class SubtractTest(unittest.TestCase):
     """Test for subtract() function"""
@@ -76,6 +82,12 @@ class SubtractTest(unittest.TestCase):
     def test_subtract_negative_and_positive(self):
         self.assertEquals(subtract(-7, 21), -28)
 
+    def test_first_argument_not_number(self):
+        self.assertEquals(subtract('asd', 2), 'error')
+
+    def test_second_argument_not_number(self):
+        self.assertEquals(subtract(3, 'asd'), 'error')
+
 class MultiplyTest(unittest.TestCase):
     """Test for multiply() function"""
 
@@ -97,6 +109,12 @@ class MultiplyTest(unittest.TestCase):
     def test_multiply_negative_and_zero(self):
         self.assertEquals(multiply(-10, 0), 0)
 
+    def test_first_argument_not_number(self):
+        self.assertEquals(multiply('asd', 2), 'error')
+
+    def test_second_argument_not_number(self):
+        self.assertEquals(multiply(3, 'asd'), 'error')
+
 class DivideTest(unittest.TestCase):
     """Test for divide() function"""
 
@@ -114,6 +132,12 @@ class DivideTest(unittest.TestCase):
 
     def test_divide_number_by_zero(self):
         self.assertEquals(divide(10, 0), 'error')
+
+    def test_first_argument_not_number(self):
+        self.assertEquals(divide('asd', 2), 'error')
+
+    def test_second_argument_not_number(self):
+        self.assertEquals(divide(3, 'asd'), 'error')
 
 
 if __name__ == '__main__':

@@ -24,6 +24,8 @@ print multiply(3, 12) # 36
 print divide(12, 4) # 3
 ```
 
+- don't forget to check if input is numeric (integer)
+
 ## Solution
 In /solutions make copy of /default folder and rename it with you name. Modify pickle001.py file to submit a solution.
 
