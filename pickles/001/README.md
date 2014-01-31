@@ -14,7 +14,7 @@ print add(1, 5) # 6
 print subtract(10, 14) # -4
 ```
 
-- create a "multiply" function that miltiplies two numbers
+- create a "multiply" function that multiplies two numbers
 ```python
 print multiply(3, 12) # 36
 ```
@@ -25,17 +25,6 @@ print divide(12, 4) # 3
 ```
 
 - don't forget to check if input is numeric (integer)
-
-## Solution
-In /solutions make copy of /default folder and rename it with you name. Modify pickle001.py file to submit a solution.
-
-## Testing
-In your solution folder run following command to test it:
-```
-> python tests.py
-```
-
-If all tests are passed then you did a good work.
 
 ## Parameters
 language=python
