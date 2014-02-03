@@ -17,14 +17,14 @@ After setting up a weather station using Raspberry Pi you decided to write a scr
   print(sum(my_list)) # 6
   ```
 
-  - **min()*** - returns a smallest reading. Hint: min(list_name) for rescue
+  - **min()** - returns a smallest reading. Hint: min(list_name) for rescue
 
   ```python
   my_list = [3, 5, 0]
   print(min(my_list)) # 0
   ```
 
-  - **max()*** - returns a biggest reading. Hint: max(list_name) for rescue
+  - **max()** - returns a biggest reading. Hint: max(list_name) for rescue
 
   ```python
   my_list = [3, 5, 0]
