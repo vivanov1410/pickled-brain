@@ -14,7 +14,7 @@ class App:
         print('')
 
     def run(self):
-        movies = raw_input('Enter movies(separated by comma): ').split(',')
+        movies = input('Enter movies(separated by comma): ').split(',')
 
         if movies[0] == '':
             print('Very interesting... Then nothing indeed!')
