@@ -1,3 +1,5 @@
+![flying pickle](http://farm4.staticflickr.com/3798/12358887094_5a24e97128_d.jpg)
+
 # Pickled Brain
 
 A problem for each day.
