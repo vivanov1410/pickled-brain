@@ -10,7 +10,7 @@ Write a program with which one can play Lingo.
 Use square brackets to mark characters correct in the sense of 1), and ordinary parentheses to mark characters correct in the sense of 2).
 Assuming, for example, that the program conceals the word "tiger", you should be able to interact with it in the following way:
 
->>> import lingo
+import lingo
 snake
 Clue: snak(e)
 fiest
