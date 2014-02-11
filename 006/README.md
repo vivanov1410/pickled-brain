@@ -11,11 +11,19 @@ Use square brackets to mark characters correct in the sense of 1), and ordinary 
 Assuming, for example, that the program conceals the word "tiger", you should be able to interact with it in the following way:
 
 import lingo
+
 snake
+
 Clue: snak(e)
+
 fiest
+
 Clue: f[i](e)s(t)
+
 times
+
 Clue: [t][i]m[e]s
+
 tiger
+
 Clue: [t][i][g][e][r]
