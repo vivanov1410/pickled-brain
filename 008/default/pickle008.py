@@ -1,1 +1,8 @@
-# Med senaste födelsedag! Slavochka min favorit! Och det bästa make!
+dictionary = {
+  'merry': 'god',
+  'christmas': 'jul',
+  'and': 'och',
+  'happy': 'gott',
+  'new': 'nytt',
+  'year': 'er'
+}
